@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+html, body{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#container{
+	margin: 0 auto;
+	width: 595px; /* A4 */
+}
+.no_print{
+	display: none;
+}
+.table{
+	border-collapse: collapse;
+	width: 100%;
+}
+.table th{
+	border: solid 1px #000;
+	padding: 4px;
+	text-align: left;
+}
+.table td{
+	border: solid 1px #000;
+	padding: 4px;
+}
+p{
+	margin: 0;
+}
+.w50{
+	width: 50px;
+}

@@ -1,0 +1,26 @@
+Version 1.6.0
+---------------------------------------
+	- SDK updated to version 1.8.6.2
+	- Logging improved
+	- Added: pjActionGetCurrencies, pjActionCheckCurrency
+
+Version 1.0.3
+---------------------------------------
+	- Require framework 1.0.18 or above (added new autoloader)
+
+Version 1.0.2
+---------------------------------------
+	- md5_setting(hash value) added
+	- transaction_id replaced with $_POST['x_invoice_num']
+	
+Version 1.0.1
+---------------------------------------
+	- added 4 new indexes to the array (to enhance the form) as follow:
+		+ x_receipt_link_url (Type: String; URL address of the page to return after payment. Often this is Thank You page location)
+		+ submit (Type: String; Submit button text)
+		+ submit_class (Type: String; Will apply the given class name to the submit button)
+		+ target (Type: String; Possible values: _blank, _self, _parent, _top)
+
+Version 1.0.0
+---------------------------------------
+	- initial

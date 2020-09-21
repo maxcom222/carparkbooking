@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.pj-icon{
+	background: transparent url(../img/pj-icon-box.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 23px;
+	height: 24px;
+}
+.pj-icon-copy{
+	background: transparent url(../img/pj-icon-copy.png) center center no-repeat;
+	display: inline-block;
+	width: 23px;
+	height: 24px;
+}

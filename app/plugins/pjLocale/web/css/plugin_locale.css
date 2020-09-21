@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+.plugin_locale_container{
+	position: relative;
+	margin-bottom: 10px;
+}
+.plugin_locale_wrapper_bottom{
+	overflow: auto;
+	-ms-overflow-y: hidden;
+	overflow-y:hidden;
+	padding-bottom: 12px;
+	margin-left: 62px;
+}
+.plugin_locale_wrapper_top{
+	margin-bottom: 10px;
+	margin-left: 62px;
+	overflow: auto;
+	-ms-overflow-y: hidden;
+	overflow-y:hidden;
+}
+.pluign_locale_wrapper_scroll{
+	height: 20px;
+}
+.plugin_locale_table{
+	width: 100%;
+}
+.plugin_locale_table td{
+	white-space: nowrap;
+}
+.plugin_locale_table th.dHeadcol,
+.plugin_locale_table td.dHeadcol {
+	border-top: solid 1px #e5e2e2;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #fff;
+	position: absolute;
+	margin-top: -1px;
+	left: 0;
+	top: auto;
+	width: 50px;
+}
+.plugin_locale_table th.dHead,
+.plugin_locale_table td.dHead{
+	width: 270px !important;
+}
+.plugin_locale_table th.dField,
+.plugin_locale_table td.dField{
+	width: 300px !important;
+}
+.pj-locale-save{
+	margin-top: 2px;
+}
+
+.wrap-locale-flag{
+	white-space: nowrap;
+}
+.img-locale-flag{
+	vertical-align: middle;
+	max-width: 16px;
+}
+.img-locale-flag[src*='empty.png']{
+	border: solid 1px #ccc;
+}
+.btn-locale{
+	width: 23px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	/*margin: 0 0 0 8px;*/
+}
+.btn-locale-upload{
+	background: url(../img/pj-icon-upload.png) 0 0 no-repeat;
+}
+.btn-locale-reset{
+	background: url(../img/pj-icon-reset.png) 0 0 no-repeat;
+}
+.btn-locale:hover{
+	background-position: 0 -24px;
+}

@@ -1,0 +1,222 @@
+@CHARSET "UTF-8";
+input.i-error{
+	background-color: #FF9F9F;
+	border: solid 1px #FF3333;
+}
+input.i-valid{
+	background-color: #B8F5B1;
+	border: solid 1px #009900;
+}
+label.i-error,
+label.i-error-clean{
+	color: #FF3333;
+	display: block;
+	font-size: 12px;
+	text-indent: 120px;
+}
+label.i-error-clean{
+	text-indent: 0;
+}
+span.i-red{
+	color: red;
+}
+.i-form{
+}
+.i-form p,
+.i-form .i-paragraph{
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+.i-form label.i-title{
+	float: left;
+	padding: 6px 0 0 0;
+	width: 120px;
+}
+/**/
+.i-wrap{
+	background-color: #fff;
+	border: solid 1px #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 6px #ccc;
+	padding: 25px;
+}
+.i-wrap p,
+.i-wrap .i-paragraph{
+	line-height: 18px;
+}
+.i-option{
+	background: transparent url(../img/install-check.png) 0 0 no-repeat;
+	width: 31px;
+	height: 31px;
+	display: inline-block;
+}
+.i-option-ready{background-position: 0 -62px}
+.i-option-err{background-position: 0 -31px}
+.i-option-ok{background-position: 0 0}
+.i-option-load{background: transparent url(../img/install-loader.gif) 0 0 no-repeat;}
+.i-table{
+	background-color: #f1f1f1;
+	border-collapse: separate;
+	border: solid 1px #e1dbdb;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkir-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+}
+.i-table th{
+	background-color: #f1f1f1;
+	padding: 12px;
+	color: #3f464b;
+	font: bold 14px/20px Arial, sans-serif;
+}
+.i-table th:first-child{
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+.i-table th:last-child{
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+.i-table td{
+	background-color: #fff;
+	border-top: solid 1px #e1dbdb;
+	padding: 12px;
+}
+
+/* Progress */
+.progress-wrap{
+	height: 39px;
+	position: relative;
+	width: 1027px;
+	margin: 25px auto 30px;
+}
+.progress-wrap ._ps{
+	background: url(../img/install-steps.png) 0 0 no-repeat;
+	width: 37px;
+	height: 39px;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+.progress-wrap ._ps1_cur{background-position: 0 0;left: 0;}
+.progress-wrap ._ps1_pas{background-position: 0 -273px;left: 0;}
+
+.progress-wrap ._ps2_cur{background-position: 0 -39px;left: 165px;}
+.progress-wrap ._ps2_pas{background-position: 0 -273px;left: 165px;}
+.progress-wrap ._ps2{background-position: 0 -312px;left: 165px;}
+
+.progress-wrap ._ps3_cur{background-position: 0 -78px;left: 330px;}
+.progress-wrap ._ps3_pas{background-position: 0 -273px;left: 330px;}
+.progress-wrap ._ps3{background-position: 0 -351px;left: 330px;}
+
+.progress-wrap ._ps4_cur{background-position: 0 -117px;left: 495px;}
+.progress-wrap ._ps4_pas{background-position: 0 -273px;left: 495px;}
+.progress-wrap ._ps4{background-position: 0 -390px;left: 495px;}
+
+.progress-wrap ._ps5_cur{background-position: 0 -156px;left: 660px;}
+.progress-wrap ._ps5_pas{background-position: 0 -273px;left: 660px;}
+.progress-wrap ._ps5{background-position: 0 -429px;left: 660px;}
+
+.progress-wrap ._ps6_cur{background-position: 0 -195px;left: 825px;}
+.progress-wrap ._ps6_pas{background-position: 0 -273px;left: 825px;}
+.progress-wrap ._ps6{background-position: 0 -468px;left: 825px;}
+
+.progress-wrap ._ps7_cur{background-position: 0 -234px;left: 990px;}
+.progress-wrap ._ps7_pas{background-position: 0 -273px;left: 990px;}
+.progress-wrap ._ps7{background-position: 0 -507px;left: 990px;}
+
+.progress-back,
+.progress-front{
+	background: url(../img/install-progress.png) 0 0 repeat-x;
+	height: 19px;
+	width: 991px;
+	position: absolute;
+	top: 10px;
+	left: 18px;
+}
+.progress-back{
+	z-index: 1;
+}
+.progress-front{
+	background-position: 0 -19px;
+	z-index: 2;
+}
+/* Status */
+.i-status{
+	border-radius: 5px;
+	position: relative;
+	margin: 0 0 10px;
+}
+.i-status-icon{
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 97px;
+}
+.i-status-notice .i-status-icon{
+	background-color: #f2f1e3;
+	border: solid 1px #e5decc;
+}
+.i-status-error .i-status-icon{
+	background-color: #dd5e63;
+	border: solid 1px #c04e53;
+}
+.i-status-success .i-status-icon{
+	background-color: #62c15d;
+	border: solid 1px #55a751;
+}
+.i-status-error .i-status-icon abbr,
+.i-status-success .i-status-icon abbr{
+	display: inline-block;
+}
+.i-status-error .i-status-icon abbr{
+	background: url(../img/install-error.png) 0 0 no-repeat;
+	width: 44px;
+	height: 45px;
+	margin: 22px 0 0 24px;
+}
+.i-status-success .i-status-icon abbr{
+	background: url(../img/install-success.png) 0 0 no-repeat;
+	width: 63px;
+	height: 52px;
+	margin: 15px 0 0 19px;
+}
+.i-status-txt{
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	margin: 0 0 0 99px;
+	padding: 18px;
+	min-height: 50px;
+	height: auto !important;
+	height: 50px;
+}
+.i-status-notice .i-status-txt{
+	border: solid 1px #e5decc;
+	border-left: none;
+	background-color: #fdfcf4;
+}
+.i-status-error .i-status-txt{
+	border: solid 1px #fdc8ca;
+	border-left: none;
+	background-color: #fff3f3;
+}
+.i-status-success .i-status-txt{
+	border: solid 1px #c2e0c0;
+	border-left: none;
+	background-color: #eef6ed;
+}
+.i-status-txt h2{
+	font: bold 22px Arial, sans-serif;
+}
+.i-form .i-captcha{
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+}

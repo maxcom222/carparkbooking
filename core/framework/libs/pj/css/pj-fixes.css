@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+/* jQuery UI fix */
+.ui-tabs{
+	position: static;
+}
+/* Tipsy fix */
+.tipsy {
+	padding-top: 0;
+}
+.tipsy-n .tipsy-arrow{
+	background: transparent url(../img/pj-menu-arrow-up.png) 0 0 no-repeat;
+	display: block;
+	width: 8px;
+	height: 7px;
+	margin: 0 auto;
+	z-index: 9995;
+	position: absolute;
+	top: 0;
+	left: 49%;
+	border: none;
+}
+.tipsy-nw .tipsy-arrow {
+	background: transparent url(../img/pj-menu-arrow-up.png) 0 0 no-repeat;
+	display: block;
+	width: 8px;
+	height: 7px;
+	margin: 0 auto;
+	z-index: 9995;
+	position: absolute;
+	top: 0;
+	left: 12px !important;
+	border: none !important;
+}
+.tipsy-inner{
+	margin-top: 1px;
+}
+/* MiniColors fix */
+.miniColors-triggerWrap{
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	z-index: 2;
+}
+.miniColors-trigger, 
+.miniColors-triggerWrap {
+	width: 18px;
+	height: 18px;
+	background-image: none;
+}
+.miniColors-trigger{
+	vertical-align: top;
+	border-radius: 3px;
+}
+.miniColors-huePicker,
+.miniColors-opacityPicker {
+	width: 16px;
+}
+/* -- end fix -- */
+
+/* jQuery Spinner fix */
+.ui-spinner input{
+	/*font-size: inherit;
+	font-family: inherit;
+	font: inherit;*/
+}
+.ui-spinner-input{
+	margin: 0;
+	border: none;
+}
+.ui-widget-content{
+	border-color: #C9D1DA;
+}
+.ui-spinner-button{
+	width: 26px;
+}
+.ui-spinner .ui-icon{
+	left: 5px;
+}
+.ui-spinner a.ui-spinner-button{
+	cursor: pointer;
+}
+/* -- end fix -- */

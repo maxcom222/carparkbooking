@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+.float_left{float:left}
+.float_right{float:right}
+.clear_left{clear:left}
+.clear_right{clear:right}
+.clear_both{clear:both}
+.bold{font-weight:bold}
+.italic{font-style:italic}
+.no-border{border: none}
+.no-decor{text-decoration: none}
+.align_left{text-align:left}
+.align_center{text-align:center}
+.align_right{text-align:right}
+.align_top{vertical-align:top}
+.align_middle{vertical-align:middle}
+.align_bottom{vertical-align:bottom}
+.block{display:block}
+.inline_block{display:inline-block}
+.none{display:none}
+.inline{display:inline}
+.overflow{overflow:hidden}
+.hidden{visibility:hidden}
+.pointer{cursor:pointer}
+.nowrap{white-space:nowrap}
+.lowercase{text-transform: lowercase;}
+.uppercase{text-transform: uppercase;}
+/* Margins, Width, Height */
+.t5{margin-top: 5px}.t6{margin-top: 6px}.t8{margin-top: 8px}.t10{margin-top: 10px}.t15{margin-top: 15px}.t20{margin-top: 20px}
+.b3{margin-bottom: 3px}.b5{margin-bottom: 5px}.b10{margin-bottom: 10px}.b15{margin-bottom: 15px}.b20{margin-bottom: 20px}
+.l5{margin-left: 5px}.l10{margin-left: 10px}.l15{margin-left: 15px}.l20{margin-left: 20px}
+.r1{margin-right: 1px}.r2{margin-right: 2px}.r3{margin-right: 3px}.r4{margin-right: 4px}.r5{margin-right: 5px}.r10{margin-right: 10px}
+.r15{margin-right: 15px}.r20{margin-right: 20px}.r25{margin-right: 25px}.r30{margin-right: 30px}.r218{margin-right: 218px;}
+.m5{margin: 5px}.m10{margin: 10px}.m15{margin: 15px}.m20{margin: 20px}
+
+.p0{padding: 0}.p1{padding: 1px}.p2{padding: 2px}.p3{padding: 3px}.p4{padding: 4px}.p5{padding: 5px}
+.pl0{padding: 0}.pr0{padding: 0}.pt0{padding: 0}.pb0{padding: 0}.pi{padding: inherit}
+
+.pt5{padding-top: 5px}.pt10{padding-top: 10px}.pt15{padding-top: 15px}.pt20{padding-top: 20px}
+.pl70{padding-left: 70px}
+
+.w10{width: 10px}.w20{width: 20px}.w30{width: 30px}.w40{width: 40px}.w50{width: 50px}
+.w60{width: 60px}.w70{width: 70px}.w74{width: 74px}.w80{width: 80px}.w90{width: 90px}.w100{width: 100px}
+.w108{width: 108px}.w110{width: 110px}.w120{width: 120px}.w130{width: 130px}.w136{width: 136px}.w140{width: 140px}.w150{width: 150px}.w155{width: 155px}.w160{width: 160px}.w170{width: 170px}.w180{width: 180px}.w190{width: 190px}
+.w200{width: 200px}.w220{width: 220px}.w230{width: 230px}.w250{width: 250px}.w260{width: 260px}.w264{width: 264px}.w270{width: 270px}.w280{width: 280px}.w290{width: 290px}
+.w300{width: 300px}.w320{width: 320px}.w350{width: 350px}.w360{width: 360px}.w370{width: 370px}.w380{width: 380px}.w390{width: 390px}
+.w400{width: 400px}.w420{width: 420px}.w430{width: 430px}.w440{width: 440px}.w450{width: 450px}.w460{width: 460px}.w470{width: 470px}.w480{width: 480px}
+.w500{width: 500px}.w520{width: 520px}.w530{width: 530px}.w550{width: 550px}.w580{width: 580px}
+.w600{width: 600px}
+.w650{width: 650px}.w700{width: 700px}
+.w60p{width: 40%;}.w50p{width: 50%;}.w60p{width: 60%;}
+
+.h10{height: 10px}.h20{height: 20px}.h25{height: 25px}.h30{height: 30px}.h40{height: 40px}.h50{height: 50px}
+.h60{height: 60px}.h70{height: 70px}.h80{height: 80px}.h90{height: 90px}.h100{height: 100px}
+.h120{height: 120px}.h150{height: 150px}.h170{height: 170px}.h180{height: 180px}
+.h200{height: 200px}.h210{height: 210px}.h220{height: 220px}.h230{height: 230px}.h300{height: 300px}.h400{height: 400px}.h500{height: 500px}
+/* colors */
+.red{color: red !important}
+.gray{color: gray !important}
+.blue{color: blue !important}
+.light-blue{color: #1d659f !important}
+/* font */
+.fs11{font-size: 11px}.fs12{font-size: 12px}.fs13{font-size: 13px}.fs14{font-size: 14px}.fs15{font-size: 15px}.fs16{font-size: 16px}.fs17{font-size: 17px}.fs18{font-size: 18px}.fs19{font-size: 19px}.fs20{font-size: 20px}
+.lh11{line-height: 11px}.lh12{line-height: 12px}.lh13{line-height: 13px}.lh14{line-height: 14px}.lh15{line-height: 15px}.lh16{line-height: 16px}.lh17{line-height: 17px}.lh18{line-height: 18px}.lh19{line-height: 19px}.lh20{line-height: 20px}
+.arial{font-family: Arial, sans-serif}
+.verdana{font-family: Verdana, sans-serif}

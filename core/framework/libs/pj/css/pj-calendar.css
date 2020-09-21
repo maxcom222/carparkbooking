@@ -1,0 +1,65 @@
+.pj-calendar .btn-primary,
+.pj-calendar-day p { -webkit-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+
+.pj-calendar-head,
+.pj-calendar-views,
+.pj-calendar-actions,
+.pj-calendar-body { *zoom: 1; }
+
+.pj-calendar-head:after,
+.pj-calendar-views:after,
+.pj-calendar-actions:after,
+.pj-calendar-body:after { content: ''; clear: both; display: table; }
+
+.pj-calendar { }
+
+.pj-calendar-day-header,
+.pj-calendar-day { width: 14.285714285714286%; float: left; float: left; text-align: center;}
+
+.pj-calendar-head.pj-calendar-8-columns .pj-calendar-day-header{width: 12.5%;}
+.pj-calendar-body.pj-calendar-8-columns .pj-calendar-day{width: 12.5%;}
+
+.pj-calendar-head p,
+.pj-calendar-day p { margin: 0; padding: 32% 0; font-size: 15px; position: relative;}
+
+.pj-calendar-day { }
+.pj-calendar-day p:hover { }
+.pj-calendar-day p { margin: 0 1px 1px 0; cursor: pointer; }
+
+.pj-calendar-body { margin-left: 1px; }
+
+.pj-calendar-head {border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; margin-bottom: 1px;}
+.pj-calendar-head p { font-weight: bold; padding: 10% 0;}
+
+.pj-calendar-day-selected p {}
+.pj-calendar-day-selected p:hover {}
+
+.pj-calendar-day-today p {}
+.pj-calendar-day-today p:hover {}
+
+.pj-calendar-day-disabled p:hover,
+.pj-calendar-day-disabled p { background: transparent; cursor: default;}
+
+.pj-calendar-day-past p:hover,
+.pj-calendar-day-past p { cursor: not-allowed;}
+
+.pj-calendar-day-inactive p:hover,
+.pj-calendar-day-inactive p { cursor: not-allowed;}
+
+.pj-calendar-actions { position: relative; padding: 10px;}
+.pj-calendar-actions .btn { position: relative; z-index: 2; }
+
+.pj-calendar-ym { position: absolute; top: 9px; left: 0; width: 100%; z-index: 1; text-align: center; font-weight: bold; font-size: 21px;}
+
+.pj-calendar-views { padding: 10px 10px 0;}
+.pj-calendar-views .btn-primary { font-size: 15px;}
+
+@media (max-width: 420px) {
+	.pj-calendar-head p,
+	.pj-calendar-day p { padding: 22% 0; }
+	
+	.pj-calendar-cell p,
+	.pj-calendar-head p { font-size: 14px; }
+
+	.pj-calendar-cell { padding-left: 0; padding-right: 0; }
+}

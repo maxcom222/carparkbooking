@@ -1,0 +1,117 @@
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjCpbBtnPrimary { border-color: #000; background: #0f0d0e; color: #f1f2ed; text-transform: uppercase; }
+#pjWrapper .pjCpbBtnPrimary:hover { border-color: #000; background: #000; color: #fff; }
+
+#pjWrapper .pjCpbBtnSecondary { border-color: #222; background: none; color: #f1f2ed; }
+#pjWrapper .pjCpbBtnSecondary:hover { border-color: #222; background: #393738; color: #fff; }
+
+/* ==========================================================================
+	#pjCpbContainer
+========================================================================== */
+#pjWrapper .pjCpbContainer { color: #909090; }
+
+/* ==========================================================================
+	#pjCpbPanel
+========================================================================== */
+#pjWrapper .pjCpbPanel { border-color: #222; }
+
+/* ==========================================================================
+	#pjCpbHead
+========================================================================== */
+#pjWrapper .pjCpbContainer .pjCpbHead { border-color: #222; background: #595758; }
+#pjWrapper .pjCpbHead .pjCpbTitle { color: #f1f2ed; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjCpbLanguage
+========================================================================== */
+#pjWrapper .pjCpbBtnLanguage { border-color: #222; background: none; color: #f1f2ed; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCpbLanguage.open .pjCpbBtnLanguage,
+#pjWrapper .pjCpbBtnLanguage:active,
+#pjWrapper .pjCpbBtnLanguage:hover { border-color: #000; background: none; color: #fff; }
+
+#pjWrapper .pjCpbLanguageOptions { border-color: #222; background: #595758; }
+#pjWrapper .pjCpbLanguageOptions a { color: #f1f2ed; }
+#pjWrapper .pjCpbLanguageOptions a:hover,
+#pjWrapper .pjCpbLanguageOptions .pjCpbBtnActive { background: #222; color: #fff; }
+
+/* ==========================================================================
+	#pjCpbBody
+========================================================================== */
+#pjWrapper .pjCpbBody { background: #413f40; }
+
+/* ==========================================================================
+	#pjCpbForm
+========================================================================== */
+#pjWrapper .pjCpbDatePicker .form-control,
+#pjWrapper .pjCpbTimePicker .form-control { border-color: #222; background: #393738; color: #f1f2ed; }
+#pjWrapper .pjCpbDatePicker .input-group-addon,
+#pjWrapper .pjCpbTimePicker .input-group-addon { border-color: #222; background: #565455; color: #f1f2ed; }
+#pjWrapper .pjCpbDatePicker .input-group-addon:hover,
+#pjWrapper .pjCpbTimePicker .input-group-addon:hover { color: #fff; }
+
+/* ==========================================================================
+	#pjCpbFormSort
+========================================================================== */
+#pjWrapper .pjCpbFormSort label { color: #f1f2ed; font-weight: bold; }
+#pjWrapper .pjCpbFormSort .form-control { border-color: #222; background: #393738; color: #f1f2ed; }
+#pjWrapper .pjCpbFormSort .form-control:focus { border-color: #222; -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .3); box-shadow: 0 0 10px rgba(255, 255, 255, .3); }
+
+/* ==========================================================================
+	#pjCpbFromPrev
+========================================================================== */
+#pjWrapper .pjCpbFromPrev { color: #909090; }
+#pjWrapper .pjCpbFromPrev .btn-link { color: #f1f2ed; }
+
+/* ==========================================================================
+	#pjCpbSpaces
+========================================================================== */
+#pjWrapper .pjCpbSpace { border-color: #222; background: #413f40; }
+#pjWrapper .pjCpbSpace .well { border: 1px solid #222; background: #222; }
+#pjWrapper .pjCpbSpaceTitle { color: #f1f2ed; font-weight: bold; }
+#pjWrapper .pjCpbSpaceTitle.disabled { color: #909090; }
+#pjWrapper .pjCpbSpacePrice { color: #909090; }
+#pjWrapper .pjCpbSpacePrice strong { color: #f1f2ed; }
+#pjWrapper .pjCpbSpaceDisabled .pjCpbSpacePrice { color: #909090; }
+#pjWrapper .pjCpbSpace > p { color: #909090; }
+#pjWrapper .pjCpbSavePrice { color: #f1f2ed; }
+
+/* ==========================================================================
+	#pjCpbExtras
+========================================================================== */
+#pjWrapper .pjCpbExtras { border-color: #222; background: #413f40; }
+#pjWrapper .pjCpbExtras .pjCpbExtrasTitle { color: #f1f2ed; }
+#pjWrapper .pjCpbExtra { border-color: #222; background: #413f40; }
+
+#pjWrapper .pjCpbExtraTitle { color: #f1f2ed; }
+#pjWrapper .pjCpbExtraPrice { color: #909090; }
+#pjWrapper .pjCpbExtraPrice strong { color: #f1f2ed; }
+
+#pjWrapper .pjCpbExtra .pjCpbListTicks li { color: #909090; }
+
+#pjWrapper .pjCpbExtra select { border-color: #222; background: #393738; color: #f1f2ed; }
+
+/* ==========================================================================
+	#pjCpbFormConfirm
+========================================================================== */
+#pjWrapper .pjCpbFormConfirm { border-color: #222; background: #413f40; }
+#pjWrapper .pjCpbFormConfirm .form-control { border-color: #222; background: #393738; color: #f1f2ed; }
+#pjWrapper .pjCpbFormConfirm .form-control:focus { border-color: #222; -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .3); box-shadow: 0 0 10px rgba(255, 255, 255, .3); }
+
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection { border-color: #222; background: #413f40; }
+
+#pjWrapper .pjCpbFormConfirmTitle { color: #f1f2ed; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection .pjCpbFormSectionTitle { color: #f1f2ed; }
+
+#pjWrapper .pjCpbFormSectionFinal p { color: #909090; }
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice strong { color: #f1f2ed; }
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice small { color: #909090; }
+
+#pjWrapper .pjCpbFormConfirm dt { color: #909090; }
+#pjWrapper .pjCpbFormConfirm dd { color: #f1f2ed; }
+
+/* ==========================================================================
+	#pjCpbFooter
+========================================================================== */
+#pjWrapper .pjCpbFooter { border-color: #222; background: #595758; }

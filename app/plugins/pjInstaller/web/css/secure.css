@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+.ui-widget {
+    font-family: inherit;
+    font-size: inherit;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: inherit;
+    font-size: inherit;
+}
+.install-view{
+	background: url(../img/install-view.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 23px;
+	height: 24px;
+}
+.install-view:hover{
+	background-position: 0 -24px;
+}
+.notice-top,
+.notice-bottom{
+	display: none;
+}
+.notice-middle{
+	background: none;
+}
+.notice-box{
+	border: solid 1px #a9e4fc;
+	background: #e9f5fa;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+	width: 100%;
+	
+}

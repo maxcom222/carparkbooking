@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+  RewriteRule .* - [F]
+</IfModule>
+
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_headers.c>
+  Header unset X-Powered-By
+</IfModule>
+
+<IfModule php5_module>
+  php_value session.cookie_httponly true
+</IfModule>
+
+<FilesMatch "\.(ttf|otf|woff|eot|woff2|woff2)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>

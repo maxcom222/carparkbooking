@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+.pj-button{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #c9cfd4;
+	color: #6c6a6a;
+	cursor: pointer;
+	font: normal 11px/18px Verdana, sans-serif;
+	padding: 4px 15px;
+	position: relative;
+}
+.pj-button,
+.pj-button:link,
+.pj-button:active,
+.pj-button:visited,
+.pj-button:hover{
+	background: #F3EFEF url(../img/pj-button.png) 0 0 repeat-x;
+	text-decoration: none;
+	-moz-box-shadow: 1px 1px 1px #FBFBFB;
+	-webkit-box-shadow: 1px 1px 1px #FBFBFB;
+	box-shadow: 1px 1px 1px #FBFBFB;
+}
+.pj-button-active,
+.pj-button-hover,
+.pj-button:not([disabled]):hover{
+	border: solid 1px #b5b7b9;
+	background: #DEDEDE url(../img/pj-button-hover.png) 0 0 repeat-x !important;
+	color: #363434 !important;
+}
+.pj-button:active{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f6f3f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f3f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f3f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f6f3f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f6f3f3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f6f3f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f3f3',GradientType=0 ); /* IE6-9 */
+	-moz-box-shadow: 1px 1px 1px #eee;
+	-webkit-box-shadow: 1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px #eee;
+}
+.pj-button-active:hover{
+
+}
+.pj-button-disabled,
+.pj-button-disabled:hover{
+	background: #f5f4f4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f5f4f4 0%, #edecec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f4f4), color-stop(100%,#edecec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f5f4f4 0%,#edecec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f5f4f4 0%,#edecec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f5f4f4 0%,#edecec 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f5f4f4 0%,#edecec 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f4f4', endColorstr='#edecec',GradientType=0 ); /* IE6-9 */
+	color: #b9b7b7;
+	cursor: default;
+}
+.pj-button-arrow-down{
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #cdcdcd;
+	position: absolute;
+	right: 4px;
+	top: 10px;
+}
+button.pj-button-detailed{
+	padding: 4px 8px;
+	vertical-align: top;
+	width: 30px;
+}
+button.pj-button-detailed span.pj-button-detailed-arrow{
+	background: transparent url(../img/pj-button-arrow-down.png) center center no-repeat;
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+}
+/*button.pj-button-config{
+	padding: 4px 8px;
+	vertical-align: top;
+	width: 30px;
+}*/
+button.pj-button-icon{
+	padding: 4px 8px;
+	vertical-align: top;
+}
+button.pj-button span.pj-button-config{
+	background: transparent url(../img/pj-icon-config.png) 0 0 no-repeat;
+	width: 11px;
+	height: 12px;
+	display: inline-block;
+}
+button.pj-button span.pj-button-down{
+	background: transparent url(../img/pj-down.png) 5px 4px no-repeat;
+	width: 8px;
+	height: 12px;
+	display: inline-block;
+	padding: 0 0 0 5px;
+}

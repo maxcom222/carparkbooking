@@ -1,0 +1,31 @@
+Version 1.0.6
+---------------------------------------
+	- Unicode support
+	
+Version 1.0.5
+---------------------------------------
+	- Require framework 1.0.18 or above (added new autoloader)
+	
+Version 1.0.4
+---------------------------------------
+	- Database queries at pjActionSetup now are moved into the 'database.sql'
+
+Version 1.0.3
+---------------------------------------
+	- required framework version 1.0.11 or above
+	- pjObject::escapeString has been removed
+	
+Version 1.0.2
+---------------------------------------
+	- changed
+		+ method pjActionSetup (few labels)
+		+ method pjActionSetup (to satisfy changes at pjField and pjMultiLang)
+
+Version 1.0.1
+---------------------------------------
+	- changed
+		+ method pjActionSetup (the way how pjLocale is loading)
+
+Version 1.0.0
+---------------------------------------
+	- initial

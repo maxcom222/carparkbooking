@@ -1,0 +1,114 @@
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjCpbBtnPrimary { border-color: #1eaf84; background: #1ec290; color: #fff; }
+#pjWrapper .pjCpbBtnPrimary:hover { border-color: #1eaf84; background: #1eaf84; color: #fff; }
+
+#pjWrapper .pjCpbBtnSecondary { border-color: #1ec290; background: none; color: #1ec290; }
+#pjWrapper .pjCpbBtnSecondary:hover { border-color: #1eaf84; background: none; color: #1eaf84; }
+
+/* ==========================================================================
+	#pjCpbContainer
+========================================================================== */
+#pjWrapper .pjCpbContainer { color: #4d4f4e; }
+
+/* ==========================================================================
+	#pjCpbPanel
+========================================================================== */
+#pjWrapper .pjCpbPanel { border-color: #dcddd8; }
+
+/* ==========================================================================
+	#pjCpbHead
+========================================================================== */
+#pjWrapper .pjCpbContainer .pjCpbHead { border-color: #dcddd8; background: #fafafa; }
+#pjWrapper .pjCpbHead .pjCpbTitle { color: #549e87; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjCpbLanguage
+========================================================================== */
+#pjWrapper .pjCpbBtnLanguage { border-color: #1ec290; background: none; color: #1ec290; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCpbLanguage.open .pjCpbBtnLanguage,
+#pjWrapper .pjCpbBtnLanguage:active,
+#pjWrapper .pjCpbBtnLanguage:hover { border-color: #1eaf84; background: none; color: #1eaf84; }
+
+#pjWrapper .pjCpbLanguageOptions { border-color: #1eaf84; background: #fafafa; }
+#pjWrapper .pjCpbLanguageOptions a { color: #1eaf84; }
+#pjWrapper .pjCpbLanguageOptions a:hover,
+#pjWrapper .pjCpbLanguageOptions .pjCpbBtnActive { background: #1eaf84; color: #fff; }
+
+/* ==========================================================================
+	#pjCpbBody
+========================================================================== */
+#pjWrapper .pjCpbBody { background: #fff; }
+
+/* ==========================================================================
+	#pjCpbForm
+========================================================================== */
+#pjWrapper .pjCpbDatePicker .input-group-addon,
+#pjWrapper .pjCpbTimePicker .input-group-addon { background: #fff; color: #1ec290; }
+#pjWrapper .pjCpbDatePicker .input-group-addon:hover,
+#pjWrapper .pjCpbTimePicker .input-group-addon:hover { color: #1eaf84; }
+
+/* ==========================================================================
+	#pjCpbFormSort
+========================================================================== */
+#pjWrapper .pjCpbFormSort label { color: #549e87; font-weight: bold; }
+#pjWrapper .pjCpbFormSort .form-control { border-color: #bebabb; color: #535b5d; }
+#pjWrapper .pjCpbFormSort .form-control:focus { border-color: #1eaf84; -webkit-box-shadow: 0 0 10px rgba(30, 175, 132, .3); box-shadow: 0 0 10px rgba(30, 175, 132, .3); }
+
+/* ==========================================================================
+	#pjCpbFromPrev
+========================================================================== */
+#pjWrapper .pjCpbFromPrev { color: #4d4f4e; }
+#pjWrapper .pjCpbFromPrev .btn-link { color: #1ec290; }
+
+/* ==========================================================================
+	#pjCpbSpaces
+========================================================================== */
+#pjWrapper .pjCpbSpace { border-color: #dcddd8; background: #fff; }
+#pjWrapper .pjCpbSpace .well { border: 1px solid #d1dbdc; background: #f3f5f4; }
+#pjWrapper .pjCpbSpaceTitle { color: #549e87; font-weight: bold; }
+#pjWrapper .pjCpbSpaceTitle.disabled { color: #4d4f4e; }
+#pjWrapper .pjCpbSpacePrice { color: #4d4f4e; }
+#pjWrapper .pjCpbSpacePrice strong { color: #549e87; }
+#pjWrapper .pjCpbSpaceDisabled .pjCpbSpacePrice { color: #4d4f4e; }
+#pjWrapper .pjCpbSpace > p { color: #4d4f4e; }
+#pjWrapper .pjCpbSavePrice { color: #549e87; }
+
+/* ==========================================================================
+	#pjCpbExtras
+========================================================================== */
+#pjWrapper .pjCpbExtras { border-color: #dcddd8; }
+#pjWrapper .pjCpbExtras .pjCpbExtrasTitle { color: #549e87; }
+#pjWrapper .pjCpbExtra { border-color: #dcddd8; }
+
+#pjWrapper .pjCpbExtraTitle { color: #1ec290; }
+#pjWrapper .pjCpbExtraPrice { color: #4d4f4e; }
+#pjWrapper .pjCpbExtraPrice strong { color: #549e87; }
+
+#pjWrapper .pjCpbExtra .pjCpbListTicks li { color: #4d4f4e; }
+
+#pjWrapper .pjCpbExtra select { border-color: #bebabb; background: #fff; color: #4d4f4e; }
+
+/* ==========================================================================
+	#pjCpbFormConfirm
+========================================================================== */
+#pjWrapper .pjCpbFormConfirm { border-color: #dcddd8; background: #fff; }
+#pjWrapper .pjCpbFormConfirm .form-control:focus { border-color: #1eaf84; -webkit-box-shadow: 0 0 10px rgba(30, 175, 132, .3); box-shadow: 0 0 10px rgba(30, 175, 132, .3); }
+
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection { border-color: #dcddd8; background: #fff; }
+
+#pjWrapper .pjCpbFormConfirmTitle { color: #549e87; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection .pjCpbFormSectionTitle { color: #1ec290; }
+
+#pjWrapper .pjCpbFormSectionFinal p { color: #4d4f4e; }
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice strong { color: #549e87; }
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice small { color: #4d4f4e; }
+
+#pjWrapper .pjCpbFormConfirm dt { color: #4d4f4e; }
+#pjWrapper .pjCpbFormConfirm dd { color: #549e87; }
+
+/* ==========================================================================
+	#pjCpbFooter
+========================================================================== */
+#pjWrapper .pjCpbFooter { border-color: #dcddd8; background: #fafafa; }

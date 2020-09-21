@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjCpbBtnPrimary { font-weight: bold; text-transform: capitalize; }
+#pjWrapper .pjCpbBtnSecondary { font-weight: bold; text-transform: capitalize; }
+
+/* ==========================================================================
+	#pjCpbPanel
+========================================================================== */
+#pjWrapper .pjCpbPanel { border-radius: 2px; }
+#pjWrapper .pjCpbFormSection{
+    border-left: none;
+    border-right: none;
+}
+/* ==========================================================================
+	#pjCpbHead
+========================================================================== */
+#pjWrapper .pjCpbContainer .pjCpbHead { padding: 20px; border-radius: 0; }
+#pjWrapper .pjCpbHead .pjCpbTitle { padding-top: 10px; font-size: 18px; text-transform: capitalize; }
+
+/* ==========================================================================
+	#pjCpbLanguage
+========================================================================== */
+#pjWrapper .pjCpbBtnLanguage { padding: 6px 9px; text-transform: capitalize; }
+#pjWrapper .pjCpbLanguage.open .pjCpbBtnLanguage,
+#pjWrapper .pjCpbBtnLanguage:active,
+#pjWrapper .pjCpbBtnLanguage:hover { -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjCpbBtnLanguage img { margin-right: 7px; }
+#pjWrapper .pjCpbBtnLanguage .caret { margin-left: 20px; }
+
+/* ==========================================================================
+	#pjCpbForm
+========================================================================== */
+#pjWrapper .pjCpbForm .control-label { font-weight: normal; }
+
+#pjWrapper .pjCpbDatePicker .input-group-addon,
+#pjWrapper .pjCpbTimePicker .input-group-addon { background: none; cursor: pointer; }
+#pjWrapper .pjCpbDateTimePicker{ cursor: pointer;}
+
+#pjWrapper .pjCpbDatePicker > .form-control,
+#pjWrapper .pjCpbTimePicker > .form-control { border-right: 0; padding: 10px; }
+#pjWrapper .pjCpbTimePicker > .form-control { border-radius: 4px 0 0 4px; }
+
+/* ==========================================================================
+	#pjCpbFormChoose
+========================================================================== */
+#pjWrapper .pjCpbFormChoose .pjCpbFormActions { padding-top: 25px; }
+
+/* ==========================================================================
+	#pjCpbFormSort
+========================================================================== */
+#pjWrapper .pjCpbFormSort label { padding-right: 10px; font-size: 15px; font-weight: normal; }
+#pjWrapper .pjCpbFormSort .form-control { cursor: pointer; }
+
+/* ==========================================================================
+	#pjCpbFromPrev
+========================================================================== */
+#pjWrapper .pjCpbFromPrev { margin: 0; padding-top: 6px; }
+#pjWrapper .pjCpbFromPrev .btn-link { text-transform: capitalize; }
+
+/* ==========================================================================
+	#pjCpbSpaces
+========================================================================== */
+#pjWrapper .pjCpbSpace .well { padding: 10px; border: 0; -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjCpbSpaceTitle { padding: 5px; font-size: 17px; text-transform: capitalize; }
+#pjWrapper .pjCpbSpacePrice { margin-bottom: 0; padding: 5px 10px 0 0; }
+#pjWrapper .pjCpbSpacePrice strong { display: inline-block; font-size: 19px; text-transform: uppercase; vertical-align: middle; }
+#pjWrapper .pjCpbSpace > p { line-height: 1.55; padding: 0 15px; }
+#pjWrapper .pjCpbSpacePrice .pjCpbSavePrice{text-transform: lowercase; font-size: 12px;}
+#pjWrapper .pjCpbPriceStrike{text-decoration: line-through;}
+/* ==========================================================================
+	#pjCpbExtras
+========================================================================== */
+#pjWrapper .pjCpbExtras { border-top: 1px solid; padding: 0 30px; }
+#pjWrapper .pjCpbExtras .pjCpbExtrasTitle { padding-bottom: 15px; font-size: 18px; font-weight: bold; }
+#pjWrapper .pjCpbExtra { padding: 20px 0 15px; }
+#pjWrapper .pjCpbExtra:first-of-type { border: 0; }
+#pjWrapper .pjCpbExtra:last-of-type { border-bottom: 0; }
+
+#pjWrapper .pjCpbExtraTitle { margin-bottom: 0; padding-top: 5px; font-size: 16px; font-weight: bold; }
+#pjWrapper .pjCpbExtraPrice { margin-bottom: 0; padding-right: 10px; line-height: 1.2; text-align: right; }
+#pjWrapper .pjCpbExtraPrice strong { display: block; font-size: 15px; }
+
+#pjWrapper .pjCpbExtra .pjCpbBtnPrimary { width: 80px; font-size: 15px; text-align: center; border-radius: 2px; }
+
+#pjWrapper .pjCpbExtra .pjCpbListTicks { padding-top: 15px; }
+#pjWrapper .pjCpbExtra .pjCpbListTicks li { padding-left: 15px; font-size: 12px; text-transform: capitalize; }
+#pjWrapper .pjCpbExtra .pjCpbListTicks li i.fa-check{ color: #44c044; font-size: 11px;} 
+
+#pjWrapper .pjCpbExtra select { width: 80px; height: 33px; border: 1px solid #d2d2d2; cursor: pointer; -webkit-box-shadow: none; box-shadow: none; border-radius: 2px; }
+
+/* ==========================================================================
+	#pjCpbFormConfirm
+========================================================================== */
+#pjWrapper .pjCpbFormConfirm { padding: 20px 25px; border-top: 1px solid #1c1d1f; }
+#pjWrapper .pjCpbFormConfirm select { cursor: pointer; }
+
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection { padding: 20px 0 5px; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection:first-of-type { border: 0; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection:last-of-type { border-bottom: 0; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection:first-of-type { padding-top: 0; }
+
+#pjWrapper .pjCpbFormConfirm .form-group { position: relative; }
+#pjWrapper .help-block.with-errors,
+#pjWrapper .help-block.with-errors .list-unstyled { margin: 0; }
+#pjWrapper .has-error .help-block.with-errors { padding-top: 5px; }
+#pjWrapper .pjCpbFormConfirm .has-error .form-control:focus {   border-color: #843534; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px #ce8483;}
+
+#pjWrapper .pjCpbFormConfirmTitle { margin: 0; padding-bottom: 15px; font-size: 18px; font-weight: bold; }
+#pjWrapper .pjCpbFormConfirm .pjCpbFormSection .pjCpbFormSectionTitle { margin-bottom: 0; padding: 10px 0 25px; font-size: 16px; font-weight: bold; text-transform: capitalize; }
+
+#pjWrapper .pjCpbFormSectionPromo { padding-bottom: 10px; }
+#pjWrapper .pjCpbFormSectionPromo .pjCpbBtn { margin-top: 25px; }
+
+#pjWrapper .pjCpbFormSectionFinal p { margin: 0; min-height: 32px; font-size: 15px; line-height: 1.2; text-transform: capitalize; }
+#pjWrapper .pjCpbFormSectionFinal p span,
+#pjWrapper .pjCpbFormSectionFinal p strong { display: block; }
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice { min-height: 0; font-size: 16px;}
+#pjWrapper .pjCpbFormSectionFinal .pjCpbFinalPrice small { font-size: 14px; font-weight: normal; text-transform: none; }
+
+#pjWrapper .pjCpbFormConfirm .dl-horizontal { margin: 0; padding: 0 0 10px; }
+#pjWrapper .pjCpbFormConfirm dt { width: auto; min-width: 130px; font-weight: normal; text-align: left; }
+#pjWrapper .pjCpbFormConfirm dd { margin-left: 0; }
+
+/* ==========================================================================
+	#pjCpbFooter
+========================================================================== */
+#pjWrapper .pjCpbFooter { padding: 20px 25px; border-top: 1px solid #1c1d1f; }
+@media only screen and ( max-width: 400px ) {
+	#pjWrapper .pjCpBackContainer{width: 100% !important; margin-bottom: 6px !important;}
+	#pjWrapper .pjCpButtonContainer{width: 100% !important; text-align: left !important;}
+}
+/* ==========================================================================
+	.pjCpjQueryUI
+========================================================================== */
+.pjCpjQueryUI{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+.pjCpjQueryUI .ui-widget button {
+   	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 12px !important;
+}
+.pjCpjQueryUI .ui_tpicker_time{
+	line-height: 24px;
+} 
+.pjCpjQueryUI .ui_tpicker_hour,
+.pjCpjQueryUI .ui_tpicker_minute{
+	margin-top: 6px;
+	margin-left: 60px;
+}
+.pjCpjQueryUI .ui_tpicker_time_label,
+.pjCpjQueryUI dt.ui_tpicker_minute_label,
+.pjCpjQueryUI dt.ui_tpicker_hour_label{
+	line-height: 24px;
+	display: block;
+	width: 60px;
+	float: left;
+}
+.pjCpjQueryUI dt.ui_tpicker_minute_label,
+.pjCpjQueryUI dt.ui_tpicker_hour_label{
+	margin-top: 7px;
+}
+.pjCpjQueryUI .ui-timepicker-select{
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    display: block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 1.42857;
+    padding: 4px 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+/* ==========================================================================
+	.Modal
+========================================================================== */
+.modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.modal-backdrop.fade.in {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
